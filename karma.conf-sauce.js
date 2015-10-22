@@ -59,6 +59,10 @@ module.exports = function(config) {
       'underscore.js',
       'test/*.js'
     ],
+
+    // Number of sauce tests to start in parallel
+    concurrency: 5,
+
     // test results reporter to use
     reporters: ['dots', 'saucelabs'],
     port: 9876,
