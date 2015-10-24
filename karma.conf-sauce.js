@@ -63,7 +63,7 @@ module.exports = function(config) {
     ],
 
     // Number of sauce tests to start in parallel
-    concurrency: 2,
+    concurrency: 10,
 
     // test results reporter to use
     reporters: ['dots', 'saucelabs'],
